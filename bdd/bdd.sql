@@ -18,8 +18,8 @@ CREATE  TABLE bdd(
 
 
 INSERT INTO syntaxe (language, extension, vocabulaire) VALUES
-    ('c#', '.cs', '#package=namespace,#import=using,#class=public class'),
-    ('java', '.java','#package=package,#import=import,#class=public class');
+    ('c#', '.cs', '{"#package": "namespace","#import": "using","#class": "public class"}'),
+    ('java', '.java','{"#package": "package","#import": "import","#class": "public class"}');
 
 --le resaka PORT & URL  tsy nataoko tao
 INSERT INTO bdd (bdd, driver) VALUES
