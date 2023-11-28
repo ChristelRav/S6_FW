@@ -2,6 +2,7 @@
 char=String
 varchar=String
 text=String
+int4=int
 integer=int
 numeric=double
 decimal=double
